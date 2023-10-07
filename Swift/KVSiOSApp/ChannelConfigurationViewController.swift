@@ -47,6 +47,10 @@ class ChannelConfigurationViewController: UIViewController, UITextFieldDelegate 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         self.signalingConnected = false
+        self.channelName.text = "demo-channel"
+        self.regionName.text = "ap-southeast-1"
+        self.clientID.text="c1"
+        self.isAudioEnabled.isOn = false
         updateConnectionLabel()
     }
     

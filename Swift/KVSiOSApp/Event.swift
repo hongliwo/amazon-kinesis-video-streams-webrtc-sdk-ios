@@ -3,6 +3,10 @@ import WebRTC
 
 public class Event {
     public class func parseEvent(event: String) -> Message? {
+        
+        if event.isEmpty{
+            return nil
+        }
         do {
             print("Event = \(event)")
 

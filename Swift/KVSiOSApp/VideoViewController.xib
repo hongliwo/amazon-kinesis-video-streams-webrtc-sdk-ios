@@ -28,10 +28,6 @@
                         <action selector="backDidTap:" destination="-1" eventType="touchUpInside" id="Sm0-wb-G5M"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOt-yj-kPb" userLabel="LocalView">
-                    <rect key="frame" x="231.5" y="480.5" width="772.5" height="865.5"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="EEy-nz-bbj">
                     <rect key="frame" x="0.0" y="58" width="120" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -41,18 +37,24 @@
                         <action selector="joinStorageSession:" destination="-1" eventType="touchUpInside" id="iOt-88-doA"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOt-yj-kPb" userLabel="LocalView">
+                    <rect key="frame" x="737" y="0.0" width="287" height="308"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="308" id="ctK-Fk-Thf"/>
+                        <constraint firstAttribute="width" constant="287" id="gfd-2K-0ak"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="CYb-ul-ZkI"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="AOt-yj-kPb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="480.5" id="L3B-uZ-1Z9"/>
+                <constraint firstItem="AOt-yj-kPb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CNE-QX-18Q"/>
                 <constraint firstItem="N0c-WK-c8E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Oid-38-lAH"/>
                 <constraint firstItem="N0c-WK-c8E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ZL4-Ht-PW9"/>
-                <constraint firstItem="AOt-yj-kPb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="231.5" id="dXg-v0-aDa"/>
-                <constraint firstAttribute="bottom" secondItem="AOt-yj-kPb" secondAttribute="bottom" constant="20" id="qbs-TC-rf8"/>
-                <constraint firstAttribute="trailing" secondItem="AOt-yj-kPb" secondAttribute="trailing" constant="20" id="sDj-9w-8bX"/>
+                <constraint firstItem="AOt-yj-kPb" firstAttribute="trailing" secondItem="CYb-ul-ZkI" secondAttribute="trailing" id="tPr-fU-c9N"/>
             </constraints>
-            <point key="canvasLocation" x="-151" y="15"/>
+            <point key="canvasLocation" x="-151.171875" y="14.934114202049779"/>
         </view>
     </objects>
 </document>
